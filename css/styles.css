@@ -127,10 +127,13 @@ width: 1200px;
 /*section 1*/
 
 .main-section {
-  background-color: #2f303a;
+  
   padding-top: 200px;
   padding-bottom: 200px;
+background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+ url('../img/bg-section-1.jpg');
 
+background-size: cover;
 }
 .section-text {
   font-weight: 900;
