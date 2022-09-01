@@ -122,8 +122,8 @@ width: 1200px;
 }
 .tel-logo {
   width: 10px;
-  height: 16px;
-  margin-right: 10px;
+    height: 16px;
+    margin-right: 10px;
 }
 
 /* main */
@@ -382,6 +382,18 @@ position: absolute;
 .contact-link-footer:hover,
 .contact-link-footer:focus {
   color: var(--accent-color);
+}
+.footer-titel {
+color: var(--text-color-theme-dark);
+  font-weight: 700;
+  line-height: 16px;
+}
+.footer-colum-left {
+
+}
+.footer-colum-right {
+  display: flex;
+  justify-content: center;
 }
 
 /*main portfolio*/
