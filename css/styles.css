@@ -115,6 +115,16 @@ width: 1200px;
 .contact-link:focus {
   color: var(--accent-color);
 }
+.mail-logo {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.tel-logo {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
 
 /* main */
 .secttion {
@@ -134,6 +144,7 @@ background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
  url('../img/bg-section-1.jpg');
 
 background-size: cover;
+background-color: #C4C4C4;
 }
 .section-text {
   font-weight: 900;
@@ -195,6 +206,21 @@ position: absolute;
 .about-menu-item {
   width: 270px;
 }
+.about-link {
+    display: flex;
+      align-items: center;
+      justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+.about-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .title-about {
   line-height: 1.14;
   font-size: 14px;
@@ -205,6 +231,7 @@ position: absolute;
   font-weight: 400;
   line-height: 1.71;
   color: var(--secondary-text-color);
+  width: 270px;
 }
 
 /*section 3*/
@@ -255,9 +282,60 @@ position: absolute;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-bottom: 30px;
+  margin-bottom: 16px;
 
   color: var(--secondary-text-color);
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-list-item {
+  padding-bottom: 30px;
+}
+.social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+.social-list-link:hover,
+.social-list-link:focus {
+  background-color:var(--accent-color);
+}
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--text-color-theme-dark);
+}
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
+}
+/*section 5*/
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.clients-link {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  width: 170px;
+  height: 92px;
+}
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  fill: #AFB1B8;
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
 }
 
 /*footer*/
