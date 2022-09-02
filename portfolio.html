@@ -19,8 +19,8 @@
   </head>
  
   <body>
-  <!--heder-->
-      <header class="header">
+   <!--heder-->
+    <header class="header">
       <div class="container">
         <nav class="header-nav">
         <a class="logo link" href="./index.html">
@@ -28,10 +28,10 @@
         >
         <ul class="header-menu list">
           <li class="header-menu-item">
-            <a class="header-menu-link link" href="./index.html">Студія</a>
+            <a class="header-menu-link link color-studio" href="./index.html">Студія</a>
           </li>
           <li class="header-menu-item">
-            <a class="header-menu-link link color-studio" href="./portfolio.html"
+            <a class="header-menu-link link " href="./portfolio.html"
               >Портфоліо</a
             >
           </li>
@@ -43,12 +43,21 @@
       <ul class="contacts list">
         <li class="contact-item">
           <a class="contact-link link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+            >
+            <svg aria-label="лого почти" class="mail-logo">
+              <use href="./img/sprite.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
           >
         </li>
         <li class="contact-item">
-          <a class="contact-link link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
+          <a class="contact-link link" href="tel:+380961111111">
+ <svg aria-label="лого телефона" class="tel-logo">
+              <use href="./img/sprite.svg#icon-Vector"
+             ></use>
+            </svg>
+            
+            +38 096 111 11 11</a
           >
         </li>
       </ul>
@@ -145,9 +154,10 @@
   </body>
 
 <!--footer-->
- <footer class="footer">
+    <footer class="footer">
     <div class="container">
-            <a class="logo-footer link" href="./index.html">
+      <div class="footer-colum-left">
+ <a class="logo-footer link" href="./index.html">
         <span class="accent">Web</span>Studio</a
       >
       <address>
@@ -173,6 +183,41 @@
           </li>
         </ul>
       </address>
+      </div>
+        <div class="footer-colum-right">
+          <p class="footer-titel"> приєднуйтесь</p>
+          <ul class="social-list list">
+              <li class="social-item">
+                <a href="" class="social-list-link footer-social-link">
+                  <svg aria-label="іконка інстаграм" class="social-list-icon footer-social-icon">
+                    <use href="./img/sprite.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-list-link footer-social-link">
+                  <svg aria-label="іконка твітер" class="social-list-icon footer-social-icon">
+                    <use href="./img/sprite.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-list-link footer-social-link">
+                  <svg aria-label="іконка фейсбук" class="social-list-icon footer-social-icon">
+                    <use href="./img/sprite.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a href="" class="social-list-link footer-social-link">
+                  <svg aria-label="іконка лінкед" class="social-list-icon footer-social-icon">
+                    <use href="./img/sprite.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+        </div>
+       
     </div>
 
     </footer>
